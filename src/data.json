@@ -1,111 +1,283 @@
 {
-  "name": "Guka",
+  "name": "Nduguti",
   "image": "/image3.png",
   "children": [
     {
-      "name": "Code #1",
+      "name": "Nyamu",
       "image": "/image3.png",
       "children": [
-        { "name": "Grandchild #1", "image": "/image3.png" },
-        { "name": "Grandchild #2", "image": "/image3.png" },
-        { "name": "Grandchild #3", "image": "/image3.png" }
-      ]
-    },
-    {
-      "name": "Code #2",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1", "image": "/image3.png" },
-        { "name": "Grandchild #2", "image": "/image3.png" },
-        { "name": "Grandchild #3", "image": "/image3.png" }
-      ]
-    },
-    {
-      "name": "Code #3",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
-      ]
-    },
-    {
-      "name": "Code #4",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
-      ]
-    },
-    {
-      "name": "Rahab Wanjiru",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1", "image": "/image3.png" },
-        { "name": "Grandchild #2", "image": "/image3.png" },
-        { "name": "Grandchild #3" },
-        { "name": "Grandchild #4" },
-        { "name": "Grandchild #5" },
-        { "name": "Grandchild #6" },
         {
-          "name": "Francis Njau",
+          "name": "Wanguirubi Mburu",
+          "image": "/image3.png",
           "children": [
-            { "name": "Vivian Wanjiru", "image": "/image3.png" },
-            { "name": "Maureen Wanjiku", "image": "/image3.png" },
-            { "name": "Nickson Mathea", "image": "/image3.png" },
-            { "name": "Trecy Gathoni", "image": "/image3.png" }
-          ]
-        },
-        {
-          "name": "Nancy Grayson",
-          "children": [
-            { "name": "Trey Grayson", "image": "/image3.png" },
-            { "name": "Kenya Wanjiru", "image": "/image3.png" }
-          ]
-        },
-        {
-          "name": "Dorcas Nyambura",
-          "children": [
-            { "name": "Serah Njoki", "image": "/image3.png" },
-            { "name": "Brian Kahura", "image": "/image3.png" }
-          ]
-        }, {
-          "name": "Catherine Wandia",
-          "children": [
-            { "name": "Justin Mathea", "image": "/image3.png" }
+            {
+              "name": "David Mathea",
+              "image": "/image3.png",
+              "children": [
+                {
+                  "name": "Nduta",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" },
+                    { "name": "Grandchild #3", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Waceke (Wamutung'u)",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" },
+                    { "name": "Grandchild #3", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Philomena Wangui",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Wambui",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Rahab Wanjiru",
+                  "image": "/image3.png",
+                  "children": [
+                    {
+                      "name": "Rachael Muthoni",
+                      "image": "/image3.png",
+                      "children": [
+                        {
+                          "name": "Tom Mbuthia",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Belinda Muthoni", "image": "/image3.png" },
+                            { "name": "Wanjiku", "image": "/image3.png" },
+                            { "name": "George Gitogo", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Catherine Wanjiru",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "George Gitogo", "image": "/image3.png" },
+                            { "name": "Simon Watoro", "image": "/image3.png" },
+                            { "name": "Ndirangu", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Serah",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Child #1", "image": "/image3.png" },
+                            { "name": "Child #2", "image": "/image3.png" },
+                            { "name": "Child #3", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "David",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "George", "image": "/image3.png" },
+                            { "name": "Kiki", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Wanjiku",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "George", "image": "/image3.png" }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Stanley Mburu", "image": "/image3.png", "children": [
+                      { "name": "Child #1", "image": "/image3.png" },
+                      { "name": "Child #2", "image": "/image3.png" },
+                      { "name": "Child #3", "image": "/image3.png" }
+                    ] },
+                    { "name": "Andrew Kihwaga", "image": "/image3.png", "children": [
+                      { "name": "Child #1", "image": "/image3.png" },
+                      { "name": "Child #2", "image": "/image3.png" }
+                    ] },
+                    {
+                      "name": "Julius Kinyanjui",
+                      "image": "/image3.png",
+                      "children": [
+                        {
+                          "name": "Carol Wanjiru",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Craig Kinyanjui", "image": "/image3.png" },
+                            { "name": "Njanja Nikki", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Mathea",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Kinyanjui", "image": "/image3.png" },
+                            { "name": "Wanjiru", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Joan Njeri",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Sizwe", "image": "/image3.png" },
+                            { "name": "Mayan", "image": "/image3.png" },
+                            { "name": "Babygirl", "image": "/image3.png" }
+                          ]
+                        },
+                        { "name": "Ng'anga", "image": "/image3.png" }
+                      ]
+                    },
+                    {
+                      "name": "Teresiah Gathoni",
+                      "image": "/image3.png",
+                      "children": [
+                        {
+                          "name": "Chris Mathea",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Child #1", "image": "/image3.png" },
+                            { "name": "Child #2", "image": "/image3.png" },
+                            { "name": "Child #3", "image": "/image3.png" }
+                          ]
+                        },
+                        {
+                          "name": "Stanley Mburu",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Child #1", "image": "/image3.png" },
+                            { "name": "Child #2", "image": "/image3.png" }
+                          ]
+                        },
+                        { "name": "Kelvin Kahura", "image": "/image3.png" }
+                      ]
+                    },
+                    { "name": "Alice Wambui", "image": "/image3.png", "children": [
+                      {
+                        "name": "Wangari",
+                        "image": "/image3.png",
+                        "children": [
+                          { "name": "Ndung'u #1", "image": "/image3.png" },
+                          { "name": "Child #2", "image": "/image3.png" }
+                        ]
+                      },
+                      {
+                        "name": "Maina",
+                        "image": "/image3.png",
+                        "children": [
+                          { "name": "Child #1", "image": "/image3.png" },
+                          { "name": "Child #2", "image": "/image3.png" }
+                        ]
+                      },
+                      {
+                        "name": "Mathea",
+                        "image": "/image3.png",
+                        "children": [
+                          { "name": "Child #1", "image": "/image3.png" },
+                          { "name": "Child #2", "image": "/image3.png" }
+                        ]
+                      }
+                    ] },
+                    {
+                      "name": "Francis Njau",
+                      "image": "/image3.png",
+                      "children": [
+                        { "name": "Vivian Wanjiru", "image": "/image3.png" },
+                        { "name": "Maureen Wanjiku", "image": "/image3.png" },
+                        { "name": "Nickson Mathea", "image": "/image3.png" },
+                        { "name": "Trecy Gathoni", "image": "/image3.png" }
+                      ]
+                    },
+                    {
+                      "name": "Nancy Grayson",
+                      "image": "/image3.png",
+                      "children": [
+                        {
+                          "name": "Trey Grayson",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Trey Grayson Jr", "image": "/image3.png" }
+                          ]
+                        },
+                        { "name": "Kenya Wanjiru", "image": "/image3.png" }
+                      ]
+                    },
+                    {
+                      "name": "Dorcas Nyambura",
+                      "image": "/image3.png",
+                      "children": [
+                        { "name": "Serah Njoki", "image": "/image3.png" },
+                        {
+                          "name": "Brian Kahura",
+                          "image": "/image3.png",
+                          "children": [{ "name": "Ariah Nyambura", "image": "/image3.png" }]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Catherine Wandia",
+                      "image": "/image3.png",
+                      "children": [
+                        {
+                          "name": "Justin Mathea",
+                          "image": "/image3.png",
+                          "children": [
+                            { "name": "Travis", "image": "/image3.png" }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Njambi",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Wanjiku Karago",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Wairimu",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                },
+                {
+                  "name": "Ndundu",
+                  "image": "/image3.png",
+                  "children": [
+                    { "name": "Grandchild #1", "image": "/image3.png" },
+                    { "name": "Grandchild #2", "image": "/image3.png" }
+                  ]
+                }
+              ]
+            }
           ]
         }
-      ]
-    },
-    {
-      "name": "Code #6",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
-      ]
-    },
-    {
-      "name": "Code #7",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
-      ]
-    },
-    {
-      "name": "Code #8",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
-      ]
-    },
-    {
-      "name": "Code #9",
-      "image": "/image3.png",
-      "children": [
-        { "name": "Grandchild #1" },
-        { "name": "Grandchild #2" }
       ]
     }
   ]

@@ -14,12 +14,12 @@ const FamilyTreeChart = ({ data }) => {
     const marginLeft = 40;
 
     const root = d3.hierarchy(data);
-    const dx = 30;
-    const dy = (width - marginRight - marginLeft) / (1 + root.height);
+    const dx = 50;
+    const dy = (width - marginRight - marginLeft) / (1 + root.height) + 30;
     const tree = d3
       .tree()
       .nodeSize([dx, dy])
-      .separation((a, b) => (a.parent === b.parent ? 4 : 5) / a.depth);
+      .separation((a, b) => (a.parent === b.parent ? 1.5 : 1.8));
     const diagonal = d3
       .linkHorizontal()
       .x((d) => d.y)
@@ -30,10 +30,10 @@ const FamilyTreeChart = ({ data }) => {
 
     const svg = d3
       .select(svgRef.current)
-      .attr("width", width)
-      .attr("height", dx)
-      .attr("viewBox", [-marginLeft, -marginTop, width, dx])
-      .style("max-width", "100%")
+      .attr("width", "100%")
+      .attr("height", "100%")
+      .attr("viewBox", [0, 0, width, 0]) // Initial height is 0, will be updated
+      .style("border", "1px solid black")
       .style("font", "12px sans-serif")
       .style("user-select", "none");
 
@@ -69,7 +69,6 @@ const FamilyTreeChart = ({ data }) => {
       const transition = svg
         .transition()
         .duration(duration)
-        .attr("height", height)
         .attr("viewBox", [-marginLeft, left.x, width, height])
         .tween(
           "resize",
@@ -101,10 +100,10 @@ const FamilyTreeChart = ({ data }) => {
       nodeEnter
         .append("image")
         .attr("xlink:href", (d) => d.data.image)
-        .attr("x", -25)
-        .attr("y", -25)
-        .attr("height", "50")
-        .attr("width", "50")
+        .attr("x", -30)
+        .attr("y", -30)
+        .attr("height", "60")
+        .attr("width", "60")
         .attr("clip-path", "circle(50%)");
 
       nodeEnter
@@ -168,8 +167,8 @@ const FamilyTreeChart = ({ data }) => {
     }
 
     // Initialize the display to show a few nodes.
-    root.x0 = dy / 2;
-    root.y0 = 0;
+    root.x0 = window.innerHeight;
+    root.y0 = width / 4;
     root.descendants().forEach((d, i) => {
       d.id = i;
       d._children = d.children;
@@ -180,12 +179,13 @@ const FamilyTreeChart = ({ data }) => {
   }, [data]); // Re-run when data changes
 
   return (
-    <div
+    <div id="container"
       style={{
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100%",
+        height: "100vh",
+        width: "100vw"
       }}
     >
       <svg ref={svgRef}></svg>
